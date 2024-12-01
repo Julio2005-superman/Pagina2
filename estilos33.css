@@ -1,0 +1,117 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-family: Algerian;
+
+}
+/* Estilo para el contenedor principal */
+#contenedor {
+    width: 90%; 
+    margin: 10px auto;
+}
+
+/* Estilo para el fondo del body */
+body {
+    background: url('imagen/degradado.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Establece una fuente básica */
+}
+
+/* Estilo para la barra de navegación */
+nav {
+    background-color: rgba(77, 157, 211, 0.8); /* Ejemplo de color de fondo con RGBA */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+/* Estilo para el encabezado */
+header {
+    height: 150px;
+    background: url('imagen/jk.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    line-height: 150px;
+    color: rgb(255, 255, 255); /* Asegura que el texto sea visible sobre la imagen */
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(77, 157, 211, 0.8);
+    color: rgb(0, 0, 0);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Estilo para el panel dentro del aside */
+#panel {
+    width: 50%;
+    margin: 10px auto;
+    border: 3px solid silver;
+    border-radius: 15px;
+    padding: 20px;
+    background: url('imagen/paisaje.jpg') /* Fondo blanco para el panel */
+}
+
+/* Estilo para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
